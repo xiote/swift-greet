@@ -12,4 +12,8 @@ final class GreetTests: XCTestCase {
     static var allTests = [
         ("testExample", testExample),
     ]
+    
+    func testHello() {
+        XCTAssertEqual(Greet().hello(nameOfPerson: "world"), "Hello, world")
+    }
 }
