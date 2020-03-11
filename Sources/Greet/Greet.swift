@@ -1,4 +1,4 @@
-struct Greet {
+public struct Greet {
     var text = "Hello, World!"
     
     public func hello(nameOfPerson: String) -> String {
