@@ -4,4 +4,6 @@ public struct Greet {
     public func hello(nameOfPerson: String) -> String {
         return "Hello, " + nameOfPerson
     }
+    
+    public init () {}
 }
