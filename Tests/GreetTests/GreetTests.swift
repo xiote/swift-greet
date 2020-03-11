@@ -14,6 +14,8 @@ final class GreetTests: XCTestCase {
     ]
     
     func testHello() {
-        XCTAssertEqual(Greet().hello(nameOfPerson: "world"), "Hello, world")
+        XCTAssertEqual(
+            Greet().hello(nameOfPerson: "world")
+            , "Hello, world")
     }
 }
